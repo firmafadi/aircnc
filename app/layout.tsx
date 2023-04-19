@@ -6,6 +6,7 @@ import ClientOnly from "./components/ClientOnly";
 import Modal from "./components/modals/Modal";
 import RegisterModal from "./components/modals/RegisterModal";
 import ToasterProvider from "./providers/ToasterProvider";
+import LoginModal from "./components/modals/LoginModal";
 
 export const metadata = {
   title: 'AirCnc',
@@ -30,6 +31,7 @@ export default function RootLayout({
         {/* <Modal actionLabel="Submit" isOpen={false} title="Login"/> */}
         <ToasterProvider/>
         <RegisterModal/>
+        <LoginModal/>
         <Navbar/>
       </ClientOnly>
         {children}
