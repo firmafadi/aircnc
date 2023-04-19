@@ -106,7 +106,7 @@ const LoginModal = () => {
             >
                 <div className='justify-center flex flex-row items-center gap-2'>
                     <div>
-                        Already have an account ?
+                        First time using AirCnc ?
                     </div>
                     <div
                         className='
@@ -115,7 +115,7 @@ const LoginModal = () => {
                             hover:underline
                         '
                     >
-                        Log in
+                        Create Account
                     </div>
                 </div>
             </div>
